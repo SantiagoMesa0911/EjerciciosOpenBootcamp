@@ -1,0 +1,41 @@
+.sidebar span,
+.content span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+}
+.sidebar {
+  background: #4c559f;
+  cursor: pointer;
+}
+.content {
+  background: #4f9dd4;
+}
+.sidebar,
+.content {
+  position: relative;
+  transition: width 0.1s;
+}
+.container {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  width: 20%;
+  margin-right: 10px; /* Your set margin */
+}
+.sidebar:hover {
+  width: 40%;
+}
+.content {
+  flex-grow: 1;
+}
+@media (max-width: 640px){
+    .body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
