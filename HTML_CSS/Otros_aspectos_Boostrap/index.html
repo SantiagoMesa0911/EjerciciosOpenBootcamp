@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elementos de Interés en Bootstrap</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+		<style>
+			.color{
+				background-image: linear-gradient(180deg, #00b0f5 0, #33aef8 8.33%, #51abf9 16.67%, #67a8f9 25%, #7ba4f8 33.33%, #8da1f6 41.67%, #9d9df2 50%, #ac99ed 58.33%, #b995e7 66.67%, #c591e1 75%, #d08ed9 83.33%, #d98bd0 91.67%, #e188c7 100%);
+			}
+		</style>
+</head>
+
+<body class="color">
+	<section>
+		<div class="p-5 mb-4  rounded-3">
+			<div class="container-fluid py-5">
+				<h1 class="display-5 fw-bold">Custom jumbotron</h1>
+				<p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one
+					in
+					previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to
+					your liking.</p>
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+					Launch demo modal
+				</button>
+			</div>
+		</div>
+		<!-- Button trigger modal -->
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						...
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid p-5">
+			<form action="">
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Nombre</label>
+					<input type="text" class="form-control 
+
+					" id="exampleFormControlInput1"
+						placeholder="ingresa tu nombre">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput2" class="form-label">Telefono</label>
+					<input type="number" class="form-control" id="exampleFormControlInput2"
+						placeholder="ingresa su telefono">
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section>
+		<div class="container-fluid p-5  text-justify">
+			<div class="card mb-3" >
+				<div class="row g-0">
+					<div class="col">
+						<div class="card-body">
+							<h5 class="card-title">Santiago Mesa Parra</h5>
+							<p class="card-text ">Técnico en desarrollo de software con alto sentido de responsabilidad, compromiso, honestidad y capacidad para trabajar en equipo con aptitudes para el desarrollo de planes en mira a la solución de problemas, Además tengo habilidades en HTML5, BOOSTRAP avanzado y un intermedio de NODEJS</p>
+							<p class="card-text"><small class="text-muted">miemail@gmail.com</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
