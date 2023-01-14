@@ -1,0 +1,19 @@
+{
+  "name": "openbootcamp_primernode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saludar":"node hola_mundo"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "npm",
+    "git",
+    "library"
+  ],
+  "author": "Santiago Mesa Parra",
+  "license": "ISC"
+}
